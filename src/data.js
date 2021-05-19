@@ -1,4 +1,4 @@
-export default questions = [
+const questions = [
     {
         id: 1,
         question: "Everything in react is a ________",
@@ -260,3 +260,5 @@ export default questions = [
         ]
     },
 ];
+
+export default questions;
