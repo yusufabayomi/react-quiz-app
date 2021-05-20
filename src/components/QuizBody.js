@@ -1,8 +1,8 @@
 import React from 'react';
 import Option from './Option';
 
-const QuizBody = ({currentQuestion: {id, question, options}}) => {
-    const renderedOptions = options.map(({id, option}) => <Option key={id} option={option} />)
+const QuizBody = ({currentQuestion: {id, question, options}, onAnswerQuestion, checkedAnswer}) => {
+    const renderedOptions = options.map(({id, option}) => <Option key={id} id={id} option={option} onAnswerQuestion={onAnswerQuestion} checkedAnswer={checkedAnswer} />)
     return (
         <div className='question bg-white p-3 border-bottom'>
               <div className='d-flex flex-row align-items-center question-title'>

@@ -5,23 +5,19 @@ const questions = [
         options: [
             {
                 id: 1,
-                option: "Module",
-                isAnswer: false
+                option: "Module"
             },
             {
                 id: 2,
-                option: "Class",
-                isAnswer: false
+                option: "Class"
             },
             {
                 id: 3,
-                option: "Component",
-                isAnswer: true
+                option: "Component"
             },
             {
                 id: 4,
-                option: "Package",
-                isAnswer: false
+                option: "Package"
             }
         ]
     },
@@ -31,23 +27,19 @@ const questions = [
         options: [
             {
                 id: 5,
-                option: "A persistant storage.",
-                isAnswer: false
+                option: "A persistant storage."
             },
             {
                 id: 6,
-                option: "An internal data store (object) of a component.",
-                isAnswer: true
+                option: "An internal data store (object) of a component."
             },
             {
                 id: 7,
-                option: "A lifecycle method",
-                isAnswer: true
+                option: "A lifecycle method"
             },
             {
                 id: 8,
-                option: "A single source of truth for a react application",
-                isAnswer: false
+                option: "A single source of truth for a react application"
             }
         ]
     },
@@ -57,23 +49,19 @@ const questions = [
         options: [
             {
                 id: 9,
-                option: "React is a Javascript library for building user interfaces",
-                isAnswer: false
+                option: "React is a Javascript library for building user interfaces"
             },
             {
                 id: 10,
-                option: "React is used to build single page applications",
-                isAnswer: false
+                option: "React is used to build single page applications"
             },
             {
                 id: 11,
-                option: "React allows us to create reusable UI components",
-                isAnswer: false
+                option: "React allows us to create reusable UI components"
             },
             {
                 id: 12,
-                option: "All of the above",
-                isAnswer: true
+                option: "All of the above"
             }
         ]
     },
@@ -83,23 +71,19 @@ const questions = [
         options: [
             {
                 id: 13,
-                option: "constructor",
-                isAnswer: false
+                option: "constructor"
             },
             {
                 id: 14,
-                option: "class",
-                isAnswer: true
+                option: "class"
             },
             {
                 id: 15,
-                option: "object",
-                isAnswer: false
+                option: "object"
             },
             {
                 id: 16,
-                option: "dataObject",
-                isAnswer: false
+                option: "dataObject"
             }
         ]
     },
@@ -109,23 +93,19 @@ const questions = [
         options: [
             {
                 id: 17,
-                option: "extend",
-                isAnswer: false
+                option: "extend"
             },
             {
                 id: 18,
-                option: "inherits",
-                isAnswer: false
+                option: "inherits"
             },
             {
                 id: 19,
-                option: "extends",
-                isAnswer: true
+                option: "extends"
             },
             {
                 id: 20,
-                option: "dataObject",
-                isAnswer: false
+                option: "dataObject"
             }
         ]
     },
@@ -135,23 +115,19 @@ const questions = [
         options: [
             {
                 id: 21,
-                option: "Browser DOM",
-                isAnswer: false
+                option: "Browser DOM"
             },
             {
                 id: 22,
-                option: "Virtual DOM",
-                isAnswer: true
+                option: "Virtual DOM"
             },
             {
                 id: 23,
-                option: "Both A and B",
-                isAnswer: false
+                option: "Both A and B"
             },
             {
                 id: 24,
-                option: "None of the above",
-                isAnswer: false
+                option: "None of the above"
             }
         ]
     },
@@ -161,23 +137,19 @@ const questions = [
         options: [
             {
                 id: 25,
-                option: "class",
-                isAnswer: false
+                option: "class"
             },
             {
                 id: 26,
-                option: "factory",
-                isAnswer: false
+                option: "factory"
             },
             {
                 id: 27,
-                option: "render",
-                isAnswer: false
+                option: "render"
             },
             {
                 id: 28,
-                option: "props",
-                isAnswer: true
+                option: "props"
             }
         ]
     },
@@ -187,23 +159,19 @@ const questions = [
         options: [
             {
                 id: 29,
-                option: "Using the reduce array method",
-                isAnswer: false
+                option: "Using the reduce array method"
             },
             {
                 id: 30,
-                option: "Using the <Each /> method",
-                isAnswer: false
+                option: "Using the <Each /> method"
             },
             {
                 id: 31,
-                option: "Using the Array.map() method",
-                isAnswer: true
+                option: "Using the Array.map() method"
             },
             {
                 id: 32,
-                option: "Using a for/while loop",
-                isAnswer: false
+                option: "Using a for/while loop"
             }
         ]
     },
@@ -213,23 +181,19 @@ const questions = [
         options: [
             {
                 id: 33,
-                option: "this.setState",
-                isAnswer: true
+                option: "this.setState"
             },
             {
                 id: 34,
-                option: "this.props",
-                isAnswer: false
+                option: "this.props"
             },
             {
                 id: 35,
-                option: "this.state{}",
-                isAnswer: false
+                option: "this.state{}"
             },
             {
                 id: 36,
-                option: "Both A and B",
-                isAnswer: false
+                option: "Both A and B"
             }
         ]
     },
@@ -239,23 +203,19 @@ const questions = [
         options: [
             {
                 id: 37,
-                option: "Initialization",
-                isAnswer: false
+                option: "Initialization"
             },
             {
                 id: 38,
-                option: "State/Property Updates",
-                isAnswer: false
+                option: "State/Property Updates"
             },
             {
                 id: 39,
-                option: "Destruction",
-                isAnswer: false
+                option: "Destruction"
             },
             {
                 id: 40,
-                option: "All of these",
-                isAnswer: true
+                option: "All of these"
             }
         ]
     },
