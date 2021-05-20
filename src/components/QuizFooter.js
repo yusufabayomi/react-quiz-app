@@ -1,6 +1,6 @@
 import React from 'react';
 
-const QuizFooter = ({onNextClicked, onPrevClicked, disableNextButton, disablePrevButton, showSubmitButton}) => {
+const QuizFooter = ({onNextClicked, onPrevClicked, disableNextButton, disablePrevButton, showSubmitButton, onSubmitQuiz}) => {
   return (
     <div className='d-flex flex-row justify-content-between align-items-center p-3 bg-white'>
       <button onClick={() =>  onPrevClicked()} disabled={disablePrevButton()} className='btn btn-primary d-flex align-items-center btn-danger' type='button'>
@@ -8,7 +8,7 @@ const QuizFooter = ({onNextClicked, onPrevClicked, disableNextButton, disablePre
       </button>
       {
         showSubmitButton() ?
-        <button className='btn btn-primary border-success align-items-center btn-success' type='button'  disabled={disableNextButton()}>Submit</button> :
+        <button className='btn btn-primary border-success align-items-center btn-success' type='button' onClick={() => onSubmitQuiz()}  disabled={disableNextButton()}>Submit</button> :
         <button onClick={() =>  onNextClicked()} disabled={disableNextButton()}  className='btn btn-primary border-success align-items-center btn-success' type='button'>
           Next<i className='fa fa-angle-right ml-2'></i>
         </button>
